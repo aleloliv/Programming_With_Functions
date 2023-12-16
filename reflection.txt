@@ -1,0 +1,13 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+I gained a profound understanding of the potency of functions during the week 6 Prove: Assignment this semester. The significance of dividing the program into functions became evident as it greatly facilitated troubleshooting. By compartmentalizing the code into functions, pinpointing issues and implementing fixes became markedly more efficient and straightforward.
+
+2. In your judgment, what is the value of test functions?
+In my estimation, the value of test functions lies in the efficiency they bring to the development process. The arduous task of manually testing a program, anticipating user misuse scenarios, and repeatedly loading, inputting, analyzing, and closing the program can be draining, especially with complex functions or code. Writing test functions proves considerably more manageable, allowing for faster identification of logical or syntax errors within the program.
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+Following the completion of a program, my initial step is to create a test function for each component, specifying expected results and running tests. Subsequently, I embark on the debugging process by selecting the initial line of code to be executed, marking it with a breakpoint (often using the key F9 in VS Code), and meticulously stepping through each function. This involves observing variable assignments, list and dictionary manipulations, and the execution of logic within functions. Identifying the problematic section of the program follows, leading to necessary fixes. To enhance my troubleshooting process, incorporating more comprehensive and automated testing strategies could be beneficial in ensuring robust code quality.

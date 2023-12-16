@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="3" time="0.293" timestamp="2023-10-13T22:23:29.168359" hostname="DESKTOP-IVS7P0B"><testcase classname="test_water_flow" name="test_pressure_gain_from_water_height" file="test_water_flow.py" line="17" time="0.004"><failure message="assert None == 0 ± 1.0e-03&#10;  comparison failed&#10;  Obtained: None&#10;  Expected: 0 ± 1.0e-03">def test_pressure_gain_from_water_height():
+        pressure = pressure_gain_from_water_height(0)
+&gt;       assert pressure == approx(0, abs=0.001)
+E       assert None == 0 ± 1.0e-03
+E         comparison failed
+E         Obtained: None
+E         Expected: 0 ± 1.0e-03
+
+test_water_flow.py:20: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="test_water_flow" name="test_pressure_loss_from_pipe" file="test_water_flow.py" line="27" time="0.002"><failure message="assert None == 0 ± 1.0e-03&#10;  comparison failed&#10;  Obtained: None&#10;  Expected: 0 ± 1.0e-03">def test_pressure_loss_from_pipe():
+        pressure = pressure_loss_from_pipe(0.048692, 0, 0.018, 1.75)
+&gt;       assert pressure == approx(0, abs=0.001)
+E       assert None == 0 ± 1.0e-03
+E         comparison failed
+E         Obtained: None
+E         Expected: 0 ± 1.0e-03
+
+test_water_flow.py:30: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="test_water_flow" name="test_water_column_height" file="test_water_flow.py" line="4" time="0.002"><failure message="UnboundLocalError: cannot access local variable 'water_column_height' where it is not associated with a value">def test_water_column_height():
+&gt;       water_column_height = water_column_height(0, 0)
+E       UnboundLocalError: cannot access local variable 'water_column_height' where it is not associated with a value
+
+test_water_flow.py:6: UnboundLocalError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>
